@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(250, 249, 249);
+    color:white;
+    background: linear-gradient(to right, rgba(85, 54, 178, 0.944), rgb(15, 223, 188));
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    color: white;
+    background: linear-gradient(to right, rgba(85, 54, 178, 0.944), rgb(15, 223, 188));
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    border: solid 2px rgb(222, 89, 218);
+    color: black;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+<link rel="stylesheet" href="numberguess.css">
+</head>
+<body>
+    <h1>Guess the Number Game</h1>
+    <p>Guess a number between 1 and 100:</p>
+    <input onchange="checkguess()" type="number" id="userguess" >
+    <button onclick="checkguess()">Submit Answer</button>
+    <div id="result"></div>
+    <script src="numberguess.js">
+    </script>
+</body>
+</html>
